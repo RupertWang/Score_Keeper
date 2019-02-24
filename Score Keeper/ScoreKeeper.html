@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron" style="background:rgba(200,200,200,0.5);">
+			<h2>SCORE KEEPER</h2>
+			<h1><strong><span id="first">0</span></strong> : <strong><span id="second">0</span></strong></h1>
+			<hr>
+			<p>Playing to:<span id="highest">0</span></p>
+			<div id="input">
+				<input type="number" required>
+				<button id="reset" class="btn btn-danger">Reset</button>
+			</div>
+			
+		</div>
+		<div id="buttons">
+			<button id="pone" class="btn btn-primary">Player One</button>
+			<span id="sep"></span>
+			<button id="ptwo" class="btn btn-primary">Player Two</button>
+		</div>	
+	</div>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

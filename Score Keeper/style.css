@@ -1,0 +1,46 @@
+h1,h2{
+	text-align: center
+}
+
+p{
+	text-align: right
+}
+
+#input{
+	height:30px;
+	float: right
+}
+
+input{
+	height:100%;
+	border-radius: 5px;
+	border:1px solid grey;
+	opacity: 0.8;
+}
+
+#reset{
+	float:right
+	height:100%;
+}
+
+body{
+
+	padding-top: 140px;
+	background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rbGMAGytlGjahhgrii/videoblocks-soccer-ball-rotates-against-the-stadium-background-in-the-left-side-with-space-for-title-logo-or-score-background-4k-ultra-hd-football-seamless-looping-3d-animation_bommdq9xtg_thumbnail-full01.png);
+	background-size:cover;
+	background-position: center;
+}
+
+#sep{
+	display: inline-block;
+	width:30%;
+}
+
+#buttons{
+	text-align: center;
+}
+
+.container{
+	padding-top: 50px;
+}
+
